@@ -22,3 +22,38 @@ This is a Spring Boot-based backend for a **Movie Booking Application**. It allo
 - 📃 **View Bookings**
 - 🔍 **Search Movies by Title, Date, Theater**
 
+- ## 🌐 API Endpoints
+
+> Base URL: `http://localhost:8080/api`
+
+### 🎥 Movies
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/movies` | Get all movies |
+| `GET` | `/movies/{id}` | Get movie by ID |
+| `POST` | `/movies` | Add a new movie |
+| `DELETE` | `/movies/{id}` | Delete a movie |
+
+### 🏛️ Theaters
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/theaters` | List all theaters |
+| `POST` | `/theaters` | Add a new theater |
+
+### 🕒 Shows
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/shows` | Get all shows |
+| `POST` | `/shows` | Schedule a new show |
+
+### 🎟️ Bookings
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/bookings` | Book a ticket |
+| `GET` | `/bookings/{id}` | View a booking by ID |
+| `DELETE` | `/bookings/{id}` | Cancel a booking |
+
